@@ -28,7 +28,7 @@ function gravar($texto){
 	$fp = fopen($arquivo, "a+");
 
 	//Escreve no arquivo aberto.
-	fwrite($fp, $texto);
+	fwrite($fp, $texto."\r\n");
 	
 	//Fecha o arquivo.
 	fclose($fp);
