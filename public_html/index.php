@@ -19,8 +19,6 @@ function get_client_ip() {
 }
 
 var_dump(get_client_ip());
-echo '<hr>';
-var_dump(md5(microtime(true)));
 
 function gravar($texto){
 	//Variável arquivo armazena o nome e extensão do arquivo.
