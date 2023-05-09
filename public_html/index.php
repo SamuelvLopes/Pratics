@@ -18,7 +18,7 @@ function get_client_ip() {
     return $ipaddress;
 }
 
-var_dump('vini',get_client_ip());
+var_dump('vini2',get_client_ip());
 
 function gravar($texto){
 	//Variável arquivo armazena o nome e extensão do arquivo.
